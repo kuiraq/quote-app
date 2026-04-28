@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0; /* Убираем отступы по умолчанию по ераям*/
+    
+    /*flexbox для центрирования содержимого*/
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота окна браузера */
+
+}
+
+.container { 
+    background-color: white;
+    padding: 20px; /* Внутренние отступы для контейнера */
+    border-radius: 12px; /* Скругление углов */
+    text-align: center; /* Выравнивание текста по центру */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Тень для создания эффекта подъема */
+    max-width: 500px; /* Максимальная ширина контейнера */
+    width: 100%; /* Ширина контейнера на 100% от родителя (занимать всю доступную ширину) */
+    
+}
+
+#quote-box { 
+    font-size: 1.2rem;
+    font-style: bold;
+    color: #333;
+    min-height: 80px;
+    margin-bottom: 20px; 
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    font-style: italic;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease; /* Плавный переход цвета при наведении */
+}
+
+button:hover {
+    background-color: #0056b3; /* Темный оттенок синего при наведении */
+}
